@@ -1,0 +1,41 @@
+[
+    {
+        "model": "artbex.tone",
+        "pk": 1,
+        "fields": {
+            "type": "Education", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbex.tone",
+        "pk": 2,
+        "fields": {
+            "type": "Informative", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbex.tone",
+        "pk": 3,
+        "fields": {
+            "type": "Inspiration", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbex.tone",
+        "pk": 4,
+        "fields": {
+            "type": "Marketing", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbex.tone",
+        "pk": 5,
+        "fields": {
+            "type": "Conversational"
+        }
+    }
+]

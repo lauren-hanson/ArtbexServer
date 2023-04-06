@@ -1,0 +1,42 @@
+[
+    {
+        "model": "artbex.format",
+        "pk": 1,
+        "fields": {
+            "type": "Education", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbex.format",
+        "pk": 2,
+        "fields": {
+            "type": "Documentary", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbex.format",
+        "pk": 3,
+        "fields": {
+            "type": "Music Video", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbex.format",
+        "pk": 4,
+        "fields": {
+            "type": "Trailer", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbex.format",
+        "pk": 5,
+        "fields": {
+            "type": "Recap", 
+            "imageUrl": ""
+        }
+    }
+]

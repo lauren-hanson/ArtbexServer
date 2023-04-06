@@ -1,0 +1,42 @@
+[
+    {
+        "model": "artbex.production",
+        "pk": 1,
+        "fields": {
+            "type": "Education", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbex.production",
+        "pk": 2,
+        "fields": {
+            "type": "iPhone", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbex.production",
+        "pk": 3,
+        "fields": {
+            "type": "DSLR", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbex.production",
+        "pk": 4,
+        "fields": {
+            "type": "Video Camera", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbex.production",
+        "pk": 5,
+        "fields": {
+            "type": "Director", 
+            "imageUrl": ""
+        }
+    }
+]
