@@ -1,0 +1,42 @@
+[
+    {
+        "model": "artbexapi.audience",
+        "pk": 1,
+        "fields": {
+            "type": "General Public", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbexapi.audience",
+        "pk": 2,
+        "fields": {
+            "type": "Executives", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbexapi.audience",
+        "pk": 3,
+        "fields": {
+            "type": "Employees", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbexapi.audience",
+        "pk": 4,
+        "fields": {
+            "type": "Potential Clients", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbexapi.audience",
+        "pk": 5,
+        "fields": {
+            "type": "Family", 
+            "imageUrl": ""
+        }
+    }
+]

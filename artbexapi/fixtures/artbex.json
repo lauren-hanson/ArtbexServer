@@ -1,0 +1,13 @@
+[
+    {
+        "model": "artbexapi.artbex",
+        "pk": 1,
+        "fields": {
+            "tone": 3, 
+            "startDate": "2022-07-07", 
+            "endDate": "2022-09-27", 
+            "notes": "", 
+            "creator": 1
+        }
+    }
+]

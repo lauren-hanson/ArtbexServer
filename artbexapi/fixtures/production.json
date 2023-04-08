@@ -1,0 +1,42 @@
+[
+    {
+        "model": "artbexapi.production",
+        "pk": 1,
+        "fields": {
+            "type": "Education", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbexapi.production",
+        "pk": 2,
+        "fields": {
+            "type": "iPhone", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbexapi.production",
+        "pk": 3,
+        "fields": {
+            "type": "DSLR", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbexapi.production",
+        "pk": 4,
+        "fields": {
+            "type": "Video Camera", 
+            "imageUrl": ""
+        }
+    },
+    {
+        "model": "artbexapi.production",
+        "pk": 5,
+        "fields": {
+            "type": "Director", 
+            "imageUrl": ""
+        }
+    }
+]
