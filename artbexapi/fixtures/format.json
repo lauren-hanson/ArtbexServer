@@ -1,6 +1,6 @@
 [
     {
-        "model": "artbex.format",
+        "model": "artbexapi.format",
         "pk": 1,
         "fields": {
             "type": "Education", 
@@ -8,7 +8,7 @@
         }
     },
     {
-        "model": "artbex.format",
+        "model": "artbexapi.format",
         "pk": 2,
         "fields": {
             "type": "Documentary", 
@@ -16,7 +16,7 @@
         }
     },
     {
-        "model": "artbex.format",
+        "model": "artbexapi.format",
         "pk": 3,
         "fields": {
             "type": "Music Video", 
@@ -24,7 +24,7 @@
         }
     },
     {
-        "model": "artbex.format",
+        "model": "artbexapi.format",
         "pk": 4,
         "fields": {
             "type": "Trailer", 
@@ -32,7 +32,7 @@
         }
     },
     {
-        "model": "artbex.format",
+        "model": "artbexapi.format",
         "pk": 5,
         "fields": {
             "type": "Recap", 

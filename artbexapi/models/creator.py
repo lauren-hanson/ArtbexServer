@@ -4,9 +4,9 @@ from django.contrib.auth.models import User
 
 class Creator(models.Model):
 
-    firstName = models.DateField(max_length=55)
-    lastName = models.DateField(max_length=55)
-    email = models.DateField(max_length=55)
+    firstName = models.CharField(max_length=55)
+    lastName = models.CharField(max_length=55)
+    email = models.CharField(max_length=55)
 
     @property
     def full_name(self): 

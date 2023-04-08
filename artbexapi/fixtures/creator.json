@@ -1,0 +1,11 @@
+[
+    {
+        "model": "artbexapi.creator",
+        "pk": 1,
+        "fields": {
+            "firstName": "",
+            "lastName": "Hussung",
+            "email": "baxterbaxterco@gmail.com"
+        }
+    }
+]

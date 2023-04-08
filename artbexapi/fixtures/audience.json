@@ -1,41 +1,41 @@
 [
     {
-        "model": "artbex.production",
+        "model": "artbexapi.audience",
         "pk": 1,
         "fields": {
-            "type": "Education", 
+            "type": "General Public", 
             "imageUrl": ""
         }
     },
     {
-        "model": "artbex.production",
+        "model": "artbexapi.audience",
         "pk": 2,
         "fields": {
-            "type": "iPhone", 
+            "type": "Executives", 
             "imageUrl": ""
         }
     },
     {
-        "model": "artbex.production",
+        "model": "artbexapi.audience",
         "pk": 3,
         "fields": {
-            "type": "DSLR", 
+            "type": "Employees", 
             "imageUrl": ""
         }
     },
     {
-        "model": "artbex.production",
+        "model": "artbexapi.audience",
         "pk": 4,
         "fields": {
-            "type": "Video Camera", 
+            "type": "Potential Clients", 
             "imageUrl": ""
         }
     },
     {
-        "model": "artbex.production",
+        "model": "artbexapi.audience",
         "pk": 5,
         "fields": {
-            "type": "Director", 
+            "type": "Family", 
             "imageUrl": ""
         }
     }

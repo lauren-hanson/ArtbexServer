@@ -1,0 +1,10 @@
+[
+    {
+        "model": "artbexapi.artbexformat",
+        "pk": 1,
+        "fields": {
+            "artbex": 1, 
+            "format": 4
+        }
+    }
+]

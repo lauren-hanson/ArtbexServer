@@ -1,6 +1,6 @@
 [
     {
-        "model": "artbex.tone",
+        "model": "artbexapi.tone",
         "pk": 1,
         "fields": {
             "type": "Education", 
@@ -8,7 +8,7 @@
         }
     },
     {
-        "model": "artbex.tone",
+        "model": "artbexapi.tone",
         "pk": 2,
         "fields": {
             "type": "Informative", 
@@ -16,7 +16,7 @@
         }
     },
     {
-        "model": "artbex.tone",
+        "model": "artbexapi.tone",
         "pk": 3,
         "fields": {
             "type": "Inspiration", 
@@ -24,7 +24,7 @@
         }
     },
     {
-        "model": "artbex.tone",
+        "model": "artbexapi.tone",
         "pk": 4,
         "fields": {
             "type": "Marketing", 
@@ -32,7 +32,7 @@
         }
     },
     {
-        "model": "artbex.tone",
+        "model": "artbexapi.tone",
         "pk": 5,
         "fields": {
             "type": "Conversational"

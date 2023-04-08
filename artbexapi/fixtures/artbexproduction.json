@@ -1,0 +1,10 @@
+[
+    {
+        "model": "artbexapi.artbexproduction",
+        "pk": 1,
+        "fields": {
+            "artbex": 1, 
+            "production": 3
+        }
+    }
+]
