@@ -2,25 +2,25 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
-from artbexapi.models import Format
+from artbexapi.models import Tone
 
 
-class FormatView(ViewSet):
+class ToneView(ViewSet):
 
     def retrieve(self, request, pk):
-        format = Format.objects.get(pk=pk)
-        serializer = FormatSerializer(format)
+        tone = Tone.objects.get(pk=pk)
+        serializer = ToneSerializer(tone)
         return Response(serializer.data)
 
 
     def list(self, request):
-        formats = Format.objects.all()
-        serializer = FormatSerializer(formats, many=True)
+        tones = Tone.objects.all()
+        serializer = ToneSerializer(tones, many=True)
         return Response(serializer.data)
     
-class FormatSerializer(serializers.ModelSerializer):
-    """JSON serializer for format
+class ToneSerializer(serializers.ModelSerializer):
+    """JSON serializer for tone
     """
     class Meta:
-        model = Format
+        model = Tone
         fields = ('id', 'type', )

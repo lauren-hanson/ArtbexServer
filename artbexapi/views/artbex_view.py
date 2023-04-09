@@ -19,7 +19,7 @@ class ArtBexView(ViewSet):
         return Response(serializer.data)
     
 class ArtBexSerializer(serializers.ModelSerializer):
-    """JSON serializer for game types
+    """JSON serializer for artbex creations
     """
     class Meta:
         model = ArtBex
