@@ -3,7 +3,7 @@
         "model": "artbexapi.creator",
         "pk": 1,
         "fields": {
-            "firstName": "",
+            "firstName": "Baxter",
             "lastName": "Hussung",
             "email": "baxterbaxterco@gmail.com"
         }
