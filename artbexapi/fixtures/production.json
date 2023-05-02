@@ -3,40 +3,32 @@
         "model": "artbexapi.production",
         "pk": 1,
         "fields": {
-            "type": "Education", 
-            "imageUrl": ""
+            "type": "iPhone", 
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681061920/artbex/qozxbde2yexfhpngag7l.jpg"
         }
     },
     {
         "model": "artbexapi.production",
         "pk": 2,
         "fields": {
-            "type": "iPhone", 
-            "imageUrl": ""
+            "type": "DSLR", 
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681061946/artbex/kbas0tzrmopsx0o0yqyt.jpg"
         }
     },
     {
         "model": "artbexapi.production",
         "pk": 3,
         "fields": {
-            "type": "DSLR", 
-            "imageUrl": ""
+            "type": "Video Camera", 
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681061971/artbex/adjtptewseqalntlfja1.jpg"
         }
     },
     {
         "model": "artbexapi.production",
         "pk": 4,
         "fields": {
-            "type": "Video Camera", 
-            "imageUrl": ""
-        }
-    },
-    {
-        "model": "artbexapi.production",
-        "pk": 5,
-        "fields": {
             "type": "Director", 
-            "imageUrl": ""
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681061985/artbex/jyae7bxvsficpresku5l.jpg"
         }
     }
 ]

@@ -23,4 +23,4 @@ class AudienceSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = Audience
-        fields = ('id', 'type', )
+        fields = ('id', 'type', 'imageUrl', )

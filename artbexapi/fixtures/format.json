@@ -3,8 +3,8 @@
         "model": "artbexapi.format",
         "pk": 1,
         "fields": {
-            "type": "Education", 
-            "imageUrl": ""
+            "type": "Educational", 
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062210/artbex/knmdx3rlibri2c0holom.jpg"
         }
     },
     {
@@ -12,7 +12,7 @@
         "pk": 2,
         "fields": {
             "type": "Documentary", 
-            "imageUrl": ""
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062126/artbex/uoocf3zuylsrz3cz13gg.jpg"
         }
     },
     {
@@ -20,7 +20,7 @@
         "pk": 3,
         "fields": {
             "type": "Music Video", 
-            "imageUrl": ""
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062145/artbex/huc9p9zv3bvj8vpgja16.jpg"
         }
     },
     {
@@ -28,7 +28,7 @@
         "pk": 4,
         "fields": {
             "type": "Trailer", 
-            "imageUrl": ""
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062172/artbex/e0zu4lxehvaacuknl3p3.jpg"
         }
     },
     {
@@ -36,7 +36,7 @@
         "pk": 5,
         "fields": {
             "type": "Recap", 
-            "imageUrl": ""
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062188/artbex/s9w2iceruy9yffsbklfp.jpg"
         }
     }
 ]

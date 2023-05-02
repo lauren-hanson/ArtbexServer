@@ -23,4 +23,4 @@ class FormatSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = Format
-        fields = ('id', 'type', )
+        fields = ('id', 'type', 'imageUrl', )

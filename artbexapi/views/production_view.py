@@ -23,4 +23,4 @@ class ProductionSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = Production
-        fields = ('id', 'type', )
+        fields = ('id', 'type', 'imageUrl', )
