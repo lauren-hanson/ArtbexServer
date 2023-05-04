@@ -4,7 +4,7 @@
         "pk": 1,
         "fields": {
             "type": "General Public", 
-            "imageUrl": ""
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062016/artbex/mgn8lavhtrialoqvajms.jpg"
         }
     },
     {
@@ -12,7 +12,7 @@
         "pk": 2,
         "fields": {
             "type": "Executives", 
-            "imageUrl": ""
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062032/artbex/kmdyyo54rnfnt3xyisrb.jpg"
         }
     },
     {
@@ -20,7 +20,7 @@
         "pk": 3,
         "fields": {
             "type": "Employees", 
-            "imageUrl": ""
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062056/artbex/iwcmazvvls12u8vftiu4.jpg"
         }
     },
     {
@@ -28,7 +28,7 @@
         "pk": 4,
         "fields": {
             "type": "Potential Clients", 
-            "imageUrl": ""
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062076/artbex/lvt5zdrknhcoj8wvzdnw.jpg"
         }
     },
     {
@@ -36,7 +36,7 @@
         "pk": 5,
         "fields": {
             "type": "Family", 
-            "imageUrl": ""
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062093/artbex/sxp1q5tmslsfzlin1ezc.jpg"
         }
     }
 ]

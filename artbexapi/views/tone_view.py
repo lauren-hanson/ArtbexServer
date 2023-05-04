@@ -23,4 +23,4 @@ class ToneSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = Tone
-        fields = ('id', 'type', )
+        fields = ('id', 'type', 'imageUrl',  )

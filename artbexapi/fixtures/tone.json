@@ -4,7 +4,7 @@
         "pk": 1,
         "fields": {
             "type": "Education", 
-            "imageUrl": ""
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681061755/artbex/lufstgxvhsx2jr9dfrpw.jpg"
         }
     },
     {
@@ -12,7 +12,7 @@
         "pk": 2,
         "fields": {
             "type": "Informative", 
-            "imageUrl": ""
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681061796/artbex/iqywfhh4ula9y0ukb9it.jpg"
         }
     },
     {
@@ -20,7 +20,7 @@
         "pk": 3,
         "fields": {
             "type": "Inspiration", 
-            "imageUrl": ""
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681061815/artbex/d8rihdovld8nhipivgr5.jpg"
         }
     },
     {
@@ -28,14 +28,15 @@
         "pk": 4,
         "fields": {
             "type": "Marketing", 
-            "imageUrl": ""
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681061831/artbex/ywc0wug6tisxqyneledq.jpg"
         }
     },
     {
         "model": "artbexapi.tone",
         "pk": 5,
         "fields": {
-            "type": "Conversational"
+            "type": "Conversational", 
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681061871/artbex/_p8jgkh.jpg"
         }
     }
 ]
