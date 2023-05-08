@@ -4,10 +4,12 @@
         "pk": 1,
         "fields": {
             "tone": 3, 
+            "audience": 3,
+            "production": 3,
+            "format": 3,
             "startDate": "2022-07-07", 
             "endDate": "2022-09-27", 
-            "notes": "", 
-            "creator": 1
+            "notes": ""
         }
     }
 ]
