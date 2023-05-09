@@ -1,0 +1,30 @@
+[
+    {
+        "model": "artbexapi.imagecategory",
+        "pk": 1,
+        "fields": {
+            "category": "production"
+        }
+    },
+    {
+        "model": "artbexapi.imagecategory",
+        "pk": 2,
+        "fields": {
+            "category": "format"
+        }
+    },
+    {
+        "model": "artbexapi.imagecategory",
+        "pk": 3,
+        "fields": {
+            "category": "tone"
+        }
+    },
+    {
+        "model": "artbexapi.imagecategory",
+        "pk": 4,
+        "fields": {
+            "category": "audience"
+        }
+    }
+]

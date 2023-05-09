@@ -1,0 +1,173 @@
+[
+    {
+        "model": "artbexapi.image",
+        "pk": 1,
+        "fields": {
+            "type": "iPhone",
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681061920/artbex/qozxbde2yexfhpngag7l.jpg",
+            "category": 1
+        }
+    },
+    {
+        "model": "artbexapi.image",
+        "pk": 2,
+        "fields": {
+            "type": "DSLR",
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681061946/artbex/kbas0tzrmopsx0o0yqyt.jpg",
+            "category": 1
+        }
+    },
+    {
+        "model": "artbexapi.image",
+        "pk": 3,
+        "fields": {
+            "type": "Video Camera",
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681061971/artbex/adjtptewseqalntlfja1.jpg",
+            "category": 1
+        }
+    },
+    {
+        "model": "artbexapi.image",
+        "pk": 4,
+        "fields": {
+            "type": "Director",
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681061985/artbex/jyae7bxvsficpresku5l.jpg",
+            "category": 1
+        }
+    },
+    {
+        "model": "artbexapi.image",
+        "pk": 5,
+        "fields": {
+            "type": "Educational",
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062210/artbex/knmdx3rlibri2c0holom.jpg",
+            "category": 2
+        }
+    },
+    {
+        "model": "artbexapi.image",
+        "pk": 6,
+        "fields": {
+            "type": "Documentary",
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062126/artbex/uoocf3zuylsrz3cz13gg.jpg",
+            "category": 2
+        }
+    },
+    {
+        "model": "artbexapi.image",
+        "pk": 7,
+        "fields": {
+            "type": "Music Video",
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062145/artbex/huc9p9zv3bvj8vpgja16.jpg",
+            "category": 2
+        }
+    },
+    {
+        "model": "artbexapi.image",
+        "pk": 8,
+        "fields": {
+            "type": "Trailer",
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062172/artbex/e0zu4lxehvaacuknl3p3.jpg",
+            "category": 2
+        }
+    },
+    {
+        "model": "artbexapi.image",
+        "pk": 9,
+        "fields": {
+            "type": "Recap",
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062188/artbex/s9w2iceruy9yffsbklfp.jpg",
+            "category": 2
+        }
+    },
+    {
+        "model": "artbexapi.image",
+        "pk": 10,
+        "fields": {
+            "type": "Education", 
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681061755/artbex/lufstgxvhsx2jr9dfrpw.jpg",
+            "category": 3
+        }
+    },
+    {
+        "model": "artbexapi.image",
+        "pk": 11,
+        "fields": {
+            "type": "Informative", 
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681061796/artbex/iqywfhh4ula9y0ukb9it.jpg",
+            "category": 3
+        }
+    },
+    {
+        "model": "artbexapi.image",
+        "pk": 12,
+        "fields": {
+            "type": "Inspiration", 
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681061815/artbex/d8rihdovld8nhipivgr5.jpg",
+            "category": 3
+        }
+    },
+    {
+        "model": "artbexapi.image",
+        "pk": 13,
+        "fields": {
+            "type": "Marketing", 
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681061831/artbex/ywc0wug6tisxqyneledq.jpg",
+            "category": 3
+        }
+    },
+    {
+        "model": "artbexapi.image",
+        "pk": 14,
+        "fields": {
+            "type": "Conversational", 
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681061871/artbex/_p8jgkh.jpg",
+            "category": 3
+        }
+    },
+    {
+        "model": "artbexapi.image",
+        "pk": 15,
+        "fields": {
+            "type": "General Public", 
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062016/artbex/mgn8lavhtrialoqvajms.jpg",
+            "category": 4
+        }
+    },
+    {
+        "model": "artbexapi.image",
+        "pk": 16,
+        "fields": {
+            "type": "Executives", 
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062032/artbex/kmdyyo54rnfnt3xyisrb.jpg",
+            "category": 4
+        }
+    },
+    {
+        "model": "artbexapi.image",
+        "pk": 17,
+        "fields": {
+            "type": "Employees", 
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062056/artbex/iwcmazvvls12u8vftiu4.jpg",
+            "category": 4
+        }
+    },
+    {
+        "model": "artbexapi.image",
+        "pk": 18,
+        "fields": {
+            "type": "Potential Clients", 
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062076/artbex/lvt5zdrknhcoj8wvzdnw.jpg",
+            "category": 4
+        }
+    },
+    {
+        "model": "artbexapi.image",
+        "pk": 19,
+        "fields": {
+            "type": "Family", 
+            "imageUrl": "https://res.cloudinary.com/dgwi6xvfl/image/upload/v1681062093/artbex/sxp1q5tmslsfzlin1ezc.jpg",
+            "category": 4
+        }
+    }
+]
