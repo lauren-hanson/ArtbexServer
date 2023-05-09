@@ -119,11 +119,18 @@ class ArtBexView(ViewSet):
         artbex.delete()
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
+class ImageArtBexSerializer(serializers.ModelSerializer): 
+    class Meta: 
+        model = Image 
+        fields= ('type', 'imageUrl', 'category',)
 
 class ArtBexSerializer(serializers.ModelSerializer):
     """JSON serializer for artbex creations
     """
+
+    images = ImageArtBexSerializer(many=True)
+
     class Meta:
         model = ArtBex
-        fields = ('id', 'image',
+        fields = ('id', 'images',
                   'startDate', 'endDate', 'notes', )

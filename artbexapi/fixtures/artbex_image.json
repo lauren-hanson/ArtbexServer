@@ -1,0 +1,42 @@
+[
+    {
+        "model": "rareapi.artbeximage",
+        "pk": 1,
+        "fields": {
+            "artbex": 1,
+            "images": 1
+        }
+    },
+    {
+        "model": "rareapi.artbeximage",
+        "pk": 2,
+        "fields": {
+            "artbex": 1,
+            "images": 2
+        }
+    },
+    {
+        "model": "rareapi.artbeximage",
+        "pk": 3,
+        "fields": {
+            "artbex": 1,
+            "images": 3
+        }
+    },
+    {
+        "model": "rareapi.artbeximage",
+        "pk": 4,
+        "fields": {
+            "artbex": 1,
+            "images": 4
+        }
+    },
+    {
+        "model": "rareapi.artbeximage",
+        "pk": 5,
+        "fields": {
+            "artbex": 1,
+            "images": 5
+        }
+    }
+]

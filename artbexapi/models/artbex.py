@@ -8,7 +8,8 @@ class ArtBex(models.Model):
     # production = models.ForeignKey(
     #     "Production", on_delete=models.CASCADE, blank=True)
     # format = models.ForeignKey("Format", on_delete=models.CASCADE, blank=True)
-    image = models.ForeignKey("Image", on_delete=models.CASCADE, blank=True)
+    images = models.ManyToManyField(
+        "Image", through="artbeximage", related_name='images_of_artbex')
     startDate = models.DateField(
         null=True, blank=True, auto_now=False, auto_now_add=False)
     endDate = models.DateField(

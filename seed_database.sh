@@ -10,8 +10,9 @@ python3 manage.py migrate artbexapi
 # python3 manage.py loaddata audience
 # python3 manage.py loaddata format
 # python3 manage.py loaddata production
-python3 manage.py loaddata artbex
+python3 manage.py loaddata category
 python3 manage.py loaddata image
+python3 manage.py loaddata artbex
 # python3 manage.py loaddata artbexformat
 # python3 manage.py loaddata artbexproduction
 # python3 manage.py loaddata artbexaudience
