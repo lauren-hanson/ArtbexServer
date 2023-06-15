@@ -4,7 +4,7 @@
         "pk": 1,
         "fields": {
             "artbex": 1,
-            "images": 1
+            "image": 1
         }
     },
     {
@@ -12,7 +12,7 @@
         "pk": 2,
         "fields": {
             "artbex": 1,
-            "images": 2
+            "image": 2
         }
     },
     {
@@ -20,7 +20,7 @@
         "pk": 3,
         "fields": {
             "artbex": 1,
-            "images": 3
+            "image": 3
         }
     },
     {
@@ -28,7 +28,7 @@
         "pk": 4,
         "fields": {
             "artbex": 1,
-            "images": 4
+            "image": 4
         }
     },
     {
@@ -36,7 +36,7 @@
         "pk": 5,
         "fields": {
             "artbex": 1,
-            "images": 5
+            "image": 5
         }
     }
 ]
