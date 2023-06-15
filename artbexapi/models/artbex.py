@@ -2,12 +2,6 @@ from django.db import models
 
 
 class ArtBex(models.Model):
-    # tone = models.ForeignKey("Tone", on_delete=models.CASCADE, blank=True)
-    # audience = models.ForeignKey(
-    #     "Audience", on_delete=models.CASCADE, blank=True)
-    # production = models.ForeignKey(
-    #     "Production", on_delete=models.CASCADE, blank=True)
-    # format = models.ForeignKey("Format", on_delete=models.CASCADE, blank=True)
     images = models.ManyToManyField(
         "Image", through="artbeximage", related_name='images_of_artbex')
     startDate = models.DateField(
