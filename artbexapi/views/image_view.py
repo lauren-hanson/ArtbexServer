@@ -20,6 +20,9 @@ class ImageView(ViewSet):
             image_category = request.query_params['category']
             images = Image.objects.filter(category=image_category)
 
+        else:
+            images = Image.objects.all()
+
         # images = Image.objects.all()
         serializer = ImageSerializer(images, many=True)
         return Response(serializer.data, status=status.HTTP_200_OK)
@@ -41,4 +44,4 @@ class ImageSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Image
-        fields = ('id', 'type', 'imageUrl', 'category', )
+        fields = ('id', 'type', 'image', 'category', )
