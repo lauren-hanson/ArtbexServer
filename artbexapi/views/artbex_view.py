@@ -19,35 +19,6 @@ class ArtBexView(ViewSet):
         return Response(serializer.data)
 
     def create(self, request):
-        """Handle POST operations
-
-        Returns
-            Response -- JSON serialized artbex instance
-        """
-        # try:
-        #     creator = Creator.objects.get(user=request.auth.user)
-        # except Creator.DoesNotExist:
-        #     return Response({'message': 'You sent an invalid token'}, status=status.HTTP_404_NOT_FOUND)
-
-        # try:
-        #     audience = Audience.objects.get(pk=request.data['audience'])
-        # except Audience.DoesNotExist:
-        #     return Response({'message': 'You sent an invalid audience Id'}, status=status.HTTP_404_NOT_FOUND)
-
-        # try:
-        #     format = Format.objects.get(pk=request.data['format'])
-        # except Format.DoesNotExist:
-        #     return Response({'message': 'You sent an invalid format Id'}, status=status.HTTP_404_NOT_FOUND)
-
-        # try:
-        #     tone = Tone.objects.get(pk=request.data['tone'])
-        # except Tone.DoesNotExist:
-        #     return Response({'message': 'You sent an invalid tone Id'}, status=status.HTTP_404_NOT_FOUND)
-
-        # try:
-        #     production = Production.objects.get(pk=request.data['production'])
-        # except Production.DoesNotExist:
-        #     return Response({'message': 'You sent an invalid production Id'}, status=status.HTTP_404_NOT_FOUND)
 
         try:
             image = Image.objects.get(pk=request.data['image'])
@@ -60,10 +31,11 @@ class ArtBexView(ViewSet):
             # tone=tone,
             # format=format,
             # production=production,
-            image=image,
-            startDate=request.data['startDate'],
-            endDate=request.data['endDate'],
-            notes=request.data['notes'],
+            image=image
+            # ,
+            # startDate=request.data['startDate'],
+            # endDate=request.data['endDate'],
+            # notes=request.data['notes'],
 
         )
 
@@ -119,10 +91,12 @@ class ArtBexView(ViewSet):
         artbex.delete()
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
-class ImageArtBexSerializer(serializers.ModelSerializer): 
-    class Meta: 
-        model = Image 
-        fields= ('type', 'imageUrl', 'category',)
+
+class ImageArtBexSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Image
+        fields = ('type', 'image', 'category',)
+
 
 class ArtBexSerializer(serializers.ModelSerializer):
     """JSON serializer for artbex creations

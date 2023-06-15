@@ -1,6 +1,6 @@
 [
     {
-        "model": "rareapi.artbeximage",
+        "model": "artbexapi.artbeximage",
         "pk": 1,
         "fields": {
             "artbex": 1,
@@ -8,7 +8,7 @@
         }
     },
     {
-        "model": "rareapi.artbeximage",
+        "model": "artbexapi.artbeximage",
         "pk": 2,
         "fields": {
             "artbex": 1,
@@ -16,7 +16,7 @@
         }
     },
     {
-        "model": "rareapi.artbeximage",
+        "model": "artbexapi.artbeximage",
         "pk": 3,
         "fields": {
             "artbex": 1,
@@ -24,7 +24,7 @@
         }
     },
     {
-        "model": "rareapi.artbeximage",
+        "model": "artbexapi.artbeximage",
         "pk": 4,
         "fields": {
             "artbex": 1,
@@ -32,7 +32,7 @@
         }
     },
     {
-        "model": "rareapi.artbeximage",
+        "model": "artbexapi.artbeximage",
         "pk": 5,
         "fields": {
             "artbex": 1,
